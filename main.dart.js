@@ -11909,7 +11909,7 @@ PE:function(a){var u=C.pc.oL(a,0,new A.NA()),t=536870911&u+((67108863&u)<<3)
 t^=t>>>11
 return 536870911&t+((16383&t)<<15)},
 NA:function NA(){},
-WW:function(a){switch(a){case"github":return"https://github.com/Vab11"
+WW:function(a){switch(a){case"github":return"https://github.com/imvab"
 case"linkedin":return"https://in.linkedin.com/in/vaibhav-birla-960412b7"
 case"kaggle":return"https://www.kaggle.com/vab711"
 case"twitter":return"https://twitter.com/Vab_11"
