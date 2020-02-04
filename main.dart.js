@@ -11911,7 +11911,7 @@ return 536870911&t+((16383&t)<<15)},
 NA:function NA(){},
 WW:function(a){switch(a){case"github":return"https://github.com/imvab"
 case"linkedin":return"https://in.linkedin.com/in/vaibhav-birla-960412b7"
-case"kaggle":return"https://www.kaggle.com/vab711"
+case"kaggle":return"https://www.kaggle.com/immvab"
 case"twitter":return"https://twitter.com/immvab"
 case"medium":return"https://medium.com/@imvab"}}}
 var w=[C,H,J,P,W,Y,X,G,S,Z,R,E,T,K,L,D,U,N,B,F,O,V,Q,M,A]
