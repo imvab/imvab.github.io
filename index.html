@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vaibhav Birla</title>
+  <meta name="description"
+    content="An Engineering undergraduate student passionate about web technologies, worked with React, Vue, NodeJS, Express, MongoDB, PostgreSQL, Git and also familiar with Python, TypeScript, GraphQL, CI/CD" />
+  <meta property="og:image" content="vaibhav.jpeg" />
+  <meta name="keywords"
+    content="Vaibhav Birla, Javascript, React, Vue, NodeJS, Express, MongoDB, PostgreSQL, Git, Python, TypeScript, GraphQL, CI/CD" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="preload" as="font" href="./static/fonts/HKGrotesk-Regular.woff" type="font/woff" crossorigin="anonymous" />
+  <link rel="preload" as="font" href="./static/fonts/Jost-Regular.ttf" type="font/woff" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./static/css/style.css" />
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115210819-5"></script>
+  <script>
+    if (window.location.hostname !== "localhost") {
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-115210819-5');
+    }
+  </script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="navbar" role="navigation">
+        <ul class="navbar-items">
+          <li class="navbar-item">
+            <a href="#skills" class="navbar-link">Skills</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#experience" class="navbar-link">Work</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#projects" class="navbar-link">Projects</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#blogs" class="navbar-link">Articles</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#contact" class="navbar-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="home-banner">
+        <div class="banner-image">
+          <img src="./static/images/vaibhav.jpeg" alt="Vaibhav Birla" />
+        </div>
+        <div class="banner-text">
+          <h3>Hey there 👋</h3>
+          <h1 class="heading-primary">I'm Vaibhav Birla</h1>
+          <p class="subtitle">Software Dev - Stock Trader</p>
+          <a href="#contact" class="button button-orange">Connect</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section id="skills">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skills">
+          <img src="https://s.svgbox.net/files.svg?ic=flutter&fill=000000" alt="flutter" class="skills-icon" />
+          <img src="https://s.svgbox.net/files.svg?ic=python&fill=000000" alt="python3" class="skills-icon" />
+          <img src="https://s.svgbox.net/files.svg?ic=firebase&fill=000000" alt="firebase" class="skills-icon" />
+          <img src="https://s.svgbox.net/files.svg?ic=typescript&fill=000000" alt="ts" class="skills-icon" />
+          <img src="https://s.svgbox.net/files.svg?ic=java&fill=000000" alt="java" class="skills-icon" />
+          <img src="https://s.svgbox.net/files.svg?ic=git&fill=000000" alt="git" class="skills-icon" />
+        </div>
+      </div>
+    </section>
+    <section id="experience">
+      <div class="container">
+        <h2>Work Experience</h2>
+        <div class="row">
+          <div class="column">
+            <h3>ThoughtWorks</h3>
+            <h4>Application Developer Intern</h4>
+          </div>
+        </div>
+        <br></br>
+        <div class="row">
+          <div class="column">
+            <h3>TradeGrub LLC</h3>
+            <h4>Flutter and Python Developer Intern</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <article class="project-card">
+          <figure class="project-image">
+            <img src="./static/images/stock-watchlist.jpeg" />
+          </figure>
+          <div class="project-text">
+            <h3>Stock Watchlist</h3>
+            <p>Minimal Stock Watchlist App</p>
+            <!-- <ul>
+                <li>JavaScript</li>
+              </ul> -->
+            <div class="tags">
+              <span class="tag tag-small">#flutter</span>
+              <span class="tag tag-small">#stocks</span>
+              <span class="tag tag-small">#webview</span>
+              <span class="tag tag-small">#sql</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/imvab/stock_watchlist" target="_blank" rel="noopener noreferrer"
+                class="link-text">
+                Github <span>&rarr;</span>
+              </a>
+            </div>
+          </div>
+        </article>
+        <article class="project-card">
+          <figure class="project-image">
+            <img src="./static/images/bse-bhavcopy.jpeg" alt="BhavCopy screenshot" />
+          </figure>
+          <div class="project-text">
+            <h3>BSE BhavCopy</h3>
+            <p>
+              Stock Prices of all Stocks on the BSE scraped from official website
+            </p>
+            <div class="tags">
+              <span class="tag tag-small tag-vue">#vue</span>
+              <span class="tag tag-small tag-javascript">#javascript</span>
+              <span class="tag tag-small tag-firebase">#python</span>
+            </div>
+            <div class="project-links">
+              <a href="https://bse-bhavcopy.herokuapp.com/" target="_blank" rel="noopener noreferrer" class="link-text">
+                Live Demo <span>&rarr;</span>
+              </a>
+              <a href="https://github.com/imvab/bse-bhavcopy" title="View Source Code" target="_blank"
+                rel="noopener noreferrer">
+                <img src="./static/images/github.svg" class="project-source" alt="GitHub" />
+              </a>
+            </div>
+          </div>
+        </article>
+        <div class="show-more-button">
+          <a href="https://github.com/imvab" class="button button-orange" target="_blank" rel="noopener noreferrer">More
+            projects</a>
+        </div>
+      </div>
+    </section>
+    <section id="blogs">
+      <div class="container">
+        <h2>Blogs</h2>
+        <div class="blogs-list">
+          <article class="card">
+            <header class="card-header">
+              <p>
+                <time datetime="2020-12-25">Dec 25, 2020 </time><span>&middot;</span> 7 min read
+              </p>
+              <h3>
+                Object Detection on Newspaper images using YoloV3
+                <span>😎</span>
+              </h3>
+            </header>
+            <div class="card-content">
+              <p>
+                I was trying my hand on Optical Character Recognition on newspaper images when I realised that most
+                documents have sections and text is not necessarily across the entire horizontal space of the page....
+              </p>
+            </div>
+            <div class="card-links">
+              <a href="https://towardsdatascience.com/object-detection-on-newspaper-images-using-yolov3-85acfa563080"
+                target="_blank" rel="noopener noreferrer" class="link-text">
+                Read more <span>&rarr;</span>
+              </a>
+            </div>
+          </article>
+          <article class="card">
+            <header class="card-header">
+              <p>
+                <time datetime="2020-12-24">Dec 24, 2020 </time><span>&middot;</span> 6 min read
+              </p>
+              <h3>
+                Stocks Watchlist App built on Flutter
+                <span>🤔</span>
+              </h3>
+            </header>
+            <div class="card-content">
+              <p>
+                I’ve been meaning to build my first flutter app for months now and here it is. I got really excited
+                about Flutter after watching Flutter Interract and started learning...
+              </p>
+            </div>
+            <div class="card-links">
+              <a href="https://medium.com/@imvab/stocks-watchlist-app-built-on-flutter-fcbc1ebbc25b" target="_blank"
+                rel="noopener noreferrer" class="link-text">
+                Read more <span>&rarr;</span>
+              </a>
+            </div>
+          </article>
+          <article class="card">
+            <header class="card-header">
+              <p>
+                <time datetime="2020-12-21">Dec 21, 2020 </time><span>&middot;</span> 6 min read
+              </p>
+              <h3>
+                Zero Shot Classification <span>🤔</span>
+              </h3>
+            </header>
+            <div class="card-content">
+              <p>
+                Zero-shot learning is a problem setup in machine learning, where at test time, a learner observes
+                samples from classes that were not observed during training ...
+              </p>
+            </div>
+            <div class="card-links">
+              <a href="https://www.kaggle.com/immvab/huggingface-classifying-stackoverflow-questions" target="_blank"
+                rel="noopener noreferrer" class="link-text">
+                Read more <span>&rarr;</span>
+              </a>
+            </div>
+          </article>
+        </div>
+        <div class="show-more-button">
+          <a href="https://soumitdas.hashnode.dev/" class="button button-orange" target="_blank"
+            rel="noopener noreferrer">More blogs</a>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="container">
+        <h2>Connect with Me</h2>
+        <h3>Hello 👋</h3>
+        <p>
+          Glad you made it this far, excited to hear from you! 😊
+        </p>
+        <a href="mailto:vaibhavbirlavb@gmail.com" class="button">Contact Me</a>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <ul class="footer-social-links">
+        <li class="footer-social-link-item">
+          <a href="https://www.linkedin.com/in/imvab" title="Link to LinkedIn Profile">
+            <img src="./static/images/linkedin.svg" class="footer-social-image" alt="LinkedIn" />
+          </a>
+        </li>
+        <li class="footer-social-link-item">
+          <a href="https://github.com/imvab/" title="Link to Github Profile">
+            <img src="./static/images/github.svg" class="footer-social-image" alt="GitHub" />
+          </a>
+        </li>
+        <li class="footer-social-link-item">
+          <a href="https://twitter.com/immvab" title="Link to Twitter Profile">
+            <img src="./static/images/twitter.svg" class="footer-social-image" alt="Twitter" />
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./static/images/arrow_up.svg" alt="Back to Top" />
+  </a>
+  <script src="./static/js/main.js"></script>
+</body>
+
+</html>
